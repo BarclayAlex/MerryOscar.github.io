@@ -1,0 +1,90 @@
+/** OSCAR's CUSTOM CSS GRID: **/
+
+
+/* Utility Classes*/
+	.hidden_mobile {
+		display: none;
+	}
+	.text-center {
+		text-align: center;
+	}
+	.img-responsive {
+		max-width:100%;
+		max-height:100%;
+		margin: 0 auto;
+	}
+	.stick_top {
+		position: fixed;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+	.test_grid {
+		border: solid black 1px;
+	}
+
+	
+/* Mobile Grid Layout:; */
+	.row {
+		width: 100%;
+	}
+	.row:before, .row:after {
+		content: "";
+		display: table;
+	}
+	.row:after {
+		clear:both
+	}
+	/* Column tpyes: */
+	.col-1-sixth {
+		width: 45%;
+		margin: 1%;
+	}
+	.col-1-fourth,
+	.col-1-third,
+	.col-1-half,
+	.col-2-thirds,
+	.col-3-fourths,
+	.col-full-width {
+		width: 100%;
+	}
+
+
+
+/* Media Queries to target Desktop Layout */
+	@media only screen and (min-width: 1024px) {
+		.hidden_mobile {
+			display: inline-block;
+		}
+		.col-1-sixth,
+		.col-1-fourth,
+		.col-1-third,
+		.col-1-half,
+		.col-2-thirds,
+		.col-3-fourths,
+		.col-full-width {
+			float: left;
+		}
+		.col-1-sixth {
+			width: 15%;
+		}
+		.col-1-fourth {
+			width: 24%
+		}
+		.col-1-third {
+			width: 30%;
+		}
+		.col-1-half {
+			width: 48%;
+		}
+		.col-2-thirds {
+			width: 60%;
+		}
+		.col-3-fourths {
+			width: 72%;
+		}
+		.col-full-width {
+			width: 100%;
+		}
+
+	}

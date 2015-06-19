@@ -1,0 +1,90 @@
+ Defaults */
+	*, *:before, *:after {
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
+		box-sizing:border-box
+	}
+	html, body {
+		min-height: 100%;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+/* Defaults */
+
+
+
+
+/* Typography */
+	h1, h2, h3, h4, h5, h6 {
+		font-family: serif;
+	}
+	p {
+		margin: 0;
+		font-size: 0.9em;
+		line-height: 1.6;
+		font-weight: 400;
+	}
+/* Typography */
+
+
+
+
+/* HEADER */
+
+
+
+
+/* HEADER */
+
+
+
+
+/* MAIN LANDING IMAGE */
+	body {
+		background-image: url('/img/earth.jpg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed;
+		height: 100%;
+	}
+	.landing h1 {
+		color: white;
+		margin: 20px;
+	}
+
+/* MAIN LANDING IMAGE */
+
+
+
+/* FOOTER */
+	footer {
+		position: fixed;
+		bottom: 0px;
+		text-align: center;
+	}
+	footer a {
+ 		color: white;
+ 		font-size: 30px;
+ 		padding: 0;
+ 		margin: 0;
+ 	}
+ 	.twitter-img {
+ 		height: 20px;
+ 		width: 20px;
+ 	}
+
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+

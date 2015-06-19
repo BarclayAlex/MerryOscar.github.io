@@ -1,0 +1,340 @@
+/* style.css for airelife.com */
+
+@charset 'UTF-8';
+
+@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?v=4.0.1#iefix') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+
+
+
+
+/** GENERAL: **/
+
+	body,input,textarea,select {
+		font-family: 'Lato', sans-serif;
+		font-weight: 300;
+		font-size: 17pt;
+		line-height: 1.75em;
+		color: #777;
+		-webkit-text-stroke: 0.1px;
+	}
+
+	section {
+		height: 80%;
+		padding: 2% 0px;
+	}
+
+	.container{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.row {
+		margin: 0;
+	}
+
+	p{
+		font-size: 16px;
+		color: white;
+	}
+	.background-effect{
+		background: #22b199;
+		background: -moz-linear-gradient(-45deg, #22b199 0%, #2075ba 50%, #2075ba 100%);
+		background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#22b199), color-stop(50%,#2075ba), color-stop(100%,#2075ba));
+		background: -webkit-linear-gradient(-45deg, #22b199 0%,#2075ba 50%,#2075ba 100%);
+		background: -o-linear-gradient(-45deg, #22b199 0%,#2075ba 50%,#2075ba 100%);
+		background: -ms-linear-gradient(-45deg, #22b199 0%,#2075ba 50%,#2075ba 100%);
+		background: linear-gradient(135deg, #22b199 0%,#2075ba 50%,#2075ba 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22b199', endColorstr='#2075ba',GradientType=1 );
+	}
+
+
+
+
+/** HEADER:; **/
+	header .logo-img {
+		width: 100%;
+		max-width: 170px;
+		padding:  10px 0 0 20px;
+	} 	
+	.sign_up {
+
+	}
+	.col-sm-12 .img-responsive {
+		margin: 0 auto;
+	}
+	.img-header{
+		height: 300px;
+		/*margin-right: 100px;*/
+		width: auto;
+		float: right;
+	}
+	header h1 {
+		line-height: 100%;
+		width: 100%;
+		padding: 10 10px;
+		margin-top: -30px;
+		color: white;
+		font-size: 60px;
+	}
+	header h2 {
+		padding: 10px;
+		font-size: 20px;
+		color: white;
+	}
+	.form-signup {
+		margin-bottom: 20px;
+		width: 100%;
+		float: left;
+	}
+	.form-group input,
+	.form-group button,
+	.hidden_radios button {
+		width: 100%;
+		margin: 0 auto;
+		max-width: 350px;
+		text-align: center;
+		margin: 50px 10px 10px 10px;
+		border-radius: 10px;
+		font-size: 20px;	
+	}
+	.form-group button,
+	.hidden_radios button {
+		background: rgba(255,255,255,0.15);
+		border: 1px solid #fff;
+		color: #fff;
+		font-size: 30px;
+		font-weight: bold;
+	}
+	.form-group .btn:hover,
+	.hidden_radios .btn:hover {
+		background-color: #28a992;
+		color: #fff;
+	}
+	.hidden_radios, .hidden_thanks {
+		display: none;
+		float: center;
+		margin: 0 auto;
+	}
+	.hidden_radios * {
+		color: white;
+	}
+	.hidden_radios h2 {
+		font-size: 30px;
+		padding: 10px 0;
+	}
+	.hidden_radios label {
+		font-size: 20px;
+	}
+	.hidden_thanks {
+		margin: 100px 0;
+	}
+	.hidden_thanks * {
+		color: white;
+		text-align: center;
+	}
+
+
+
+/** TRUST ICONS: **/
+	.row .trust{
+		border-top: 10px;
+		border-bottom: 1px blue;
+		width: 80%;
+		margin: 0 auto;
+	}
+
+
+
+
+/** MISSION VISION: **/
+	.mission header {
+		padding: 20px;
+	}
+	.mission_txt {
+		width: 80%;
+		margin: auto;
+		padding: 30px;
+		color: white;
+		text-align: center;
+	}
+	.mission_txt h2 {
+		font-size: 40px;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+
+
+
+
+/** WHY IS CREDIT IMPORTANT: **/
+	.important h1 {
+		font-size: 50px;
+		color: #2075ba;
+		text-align: center;
+		margin: 40px;
+		line-height: 100%;
+	}
+	.important .person-img {
+		max-width: 260px;
+		margin-left: 50px;
+	}
+	.important img {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.important .quote h3{
+		padding: 20px;
+	}
+	.important .credit-img {
+		margin-left: -8px;
+	}
+
+
+
+
+/** PROMISES */
+	.promises h2 {
+		font-size: 40px;
+		padding: 40px;
+		color: white;
+		text-align: center;
+	}
+	.promises h3 {
+		color: white;
+		font-size: 32px;
+		text-align: center;
+	}
+	.promises .promise {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.promises p {
+		margin: 20px 5px;
+		font-size: 20px;
+	}
+	.feature-icon {
+		display: inline-block;
+		position: relative;
+		cursor: default;
+	}
+	.feature-icon .fa {
+		display: inline-block;
+		width: 2em;
+		height: 2em;
+		font-size: 4.5em;
+		border-radius: 100%;
+		box-shadow: inset 0 0 0 1px #666;
+		color: white;
+		line-height: 2.1em;
+		background: transparent none;
+		background: rgba(255,255,255,0.15);
+		box-shadow: none;
+		box-shadow: inset 0 0 0 1px rgba(255,255,255,0.5);
+		color: #fff;
+	}
+
+
+
+
+/** SIGNUP 2: **/
+	.signup_2 {
+		background-image: url('../images/skydiving.jpg');	
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		background-attachment: fixed; /* Parralax */
+		height: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.signup_2 h2 {
+		font-size: 60px;
+		font-weight: bold;
+		color: white;
+		text-align: center;
+		margin-top: 50px;
+		line-height: 100%;
+	}
+	.signup_2 input, .signup_2 button{
+		width: 100%;
+		margin: 0 auto;
+		max-width: 350px;
+		text-align: center;
+		margin: 50px 10px 10px 10px;
+		border-radius: 10px;
+		font-size: 20px;
+		height: 60px;
+		border: white solid 2px;
+	}
+	.signup_2 button {
+		background: rgba(255,255,255,0.1);
+		border: 1px solid #fff;
+		color: #fff;
+		font-size: 35px;
+		font-weight: bold;
+		margin-bottom: 200px;
+		height: 60px;
+		border: white solid 2px;
+	}
+	.signup_2 button:hover{
+		background-color: #28a992;
+		color: #fff;
+	}
+	.skydive_form {
+		margin-left: -7px;
+	}
+
+
+
+
+/** FOOTER: **/
+footer h1 {
+	font-size: 50px;
+	padding-top: 40px;
+	line-height: 110%;
+}
+footer .share {
+	background-color: white;
+	padding: 8px 60px;
+	margin: 40px;
+	border-radius: 10px;
+	border: 1px solid black;
+}
+footer .share a {
+	color: #28a992;
+	font-size: 30px;
+	text-decoration: none;
+}
+footer .share a:hover {
+	text-decoration: none;
+}
+footer .logo-img {
+	margin: 0 auto;
+	width: 200px;
+} 
+footer .logo-img img {
+	width: 100%;
+}
+ul.menu {
+	cursor: default;
+}
+ul.menu li {
+	display: inline-block;
+	line-height: 1em;
+	font-size: 14px;
+	color: grey;
+	border-left: solid 1px #e6e6e6;
+	padding: 0 0 0 0.5em;
+	margin: 0 0 0 0.5em;
+}
+ul.menu li:first-child {
+	border-left: 0;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+
+
+
+
+
+

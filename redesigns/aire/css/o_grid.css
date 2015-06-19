@@ -1,0 +1,72 @@
+/** OSCAR's CUSTOM CSS GRID: **/
+
+
+/* Utility Classes*/
+	.hidden_mobile {
+		display: none;
+	}
+	.text-center {
+		text-align: center;
+	}
+	.img-responsive {
+		max-width:100%;
+		max-height:100%;
+		margin: 0 auto;
+	}
+	.continer {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	
+/* Mobile Grid Layout:; */
+	.row {
+		width: 100%;
+	}
+	.row:before, .row:after {
+		content: "";
+		display: table;
+	}
+	.row:after {
+		clear:both
+	}
+	.col-1, .col-2, .col-3, .col-4 {
+		width: 100%;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+
+
+
+/* Media Queries to target Desktop Layout */
+	@media only screen and (min-width: 1024px) {
+		.hidden_mobile {
+			display: inline-block;
+		}
+
+		.col-1, .col-2, .col-3, .col-4 {
+			float: left;
+		}
+		.col-1 {
+			width: 33%;
+		}
+		.col-2 {
+			width: 50%;
+		}
+		.col-3 {
+			width: 60%;
+		}
+		.col-4 {
+			width: 100%;
+		}
+		h1, h2 {
+			margin: 20px;
+			font-size: 40px;
+		}
+		section {
+			padding: 25px;
+		}
+		footer {
+			padding: 50px 100px;
+		}
+	}
